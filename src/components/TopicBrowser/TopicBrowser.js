@@ -8,7 +8,7 @@ import Sum from '../Topics/Sum'
 export default class TopicBrowser extends Component {
     render(){
         return (
-            <div class="parentDiv" style="height: 100%;">
+            <div className="parentDiv">
                 <EvenAndOdd/>
                 <FilterObject/>
                 <FilterString/>
