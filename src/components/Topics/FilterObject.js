@@ -1,6 +1,11 @@
 import React, {Component} from 'react'
 
 export default class FilterObject extends Component{
+    component(){
+        super();
+
+        
+    }
     render(){
         return (
             <div className='parentDivFilterObj'>
