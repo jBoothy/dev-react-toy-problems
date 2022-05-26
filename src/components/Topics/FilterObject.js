@@ -31,10 +31,10 @@ handleChange (input){
 }
 
 filterUsers(prop) {
-    var users = this.state.unFilteredArray;
-    var filteredArray = [];
+    let users = this.state.unFilteredArray;
+    let filteredArray = [];
     
-    for ( var i = 0; i < users.length; i++ ) {
+    for ( let i = 0; i < users.length; i++ ) {
       if ( users[i].hasOwnProperty(prop) ) {
         filteredArray.push(users[i]);
       }
