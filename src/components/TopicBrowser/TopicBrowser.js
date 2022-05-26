@@ -8,7 +8,7 @@ import Sum from '../Topics/Sum'
 export default class TopicBrowser extends Component {
     render(){
         return (
-            <div className="parentDiv">
+            <div className="puzzleFeed">
                 <EvenAndOdd/>
                 <FilterObject/>
                 <FilterString/>
